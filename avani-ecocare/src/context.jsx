@@ -1,6 +1,5 @@
 import React, { useContext, useReducer, useEffect } from "react";
 import reducer from "./reducer";
-import i from "./assets/avaniImage.png";
 const AppContext = React.createContext();
 
 const API = "https://thapareactapi.up.railway.app";
@@ -11,6 +10,7 @@ const intialState = {
   services: [],
 };
 
+// eslint-disable-next-line react/prop-types
 const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, intialState);
 
@@ -18,8 +18,8 @@ const AppProvider = ({ children }) => {
     return dispatch({
       type: "HOME_UPDATE",
       payload: {
-        name: "Avani Ecocare",
-        image: "./images/hero.svg",
+        name: "Materials Testing  Laboratory",
+        image: "./images/hero.png",
       },
     });
   };

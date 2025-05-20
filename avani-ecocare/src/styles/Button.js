@@ -3,14 +3,14 @@ import styled from "styled-components";
 export const Button = styled.button`
   text-decoration: none;
   max-width: auto;
-  background-color: rgb(98 84 243);
+  background-color: #87a96b;
   color: rgb(255 255 255);
-  padding: 0.5rem 1.4rem;
+  padding: 1rem 2.4rem;
   border: none;
-  border-radius: 12px;
-  text-transform: uppercase;
+  border-radius: 20px;
   text-align: center;
   cursor: pointer;
+  font-size: 18px;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;

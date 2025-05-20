@@ -1,8 +1,6 @@
-import React from "react";
 import logos from "../assets/isologo.png";
 import logos2 from "../assets/isologo1.png";
 import logos3 from "../assets/nabllogo.png";
-import styled from "styled-components";
 import "./TeamCertification.css";
 
 const TeamCertification = () => {

@@ -1,74 +1,57 @@
 import styled from "styled-components";
-import dhc from "./assets/IMAGES/testingPlastics.jpg";
-import quv from "./assets/IMAGES/quv.jpg";
-import gcms from "./assets/IMAGES/gcms.webp";
-import rubber from "./assets/IMAGES/rubber.jpg";
-import electronic from "./assets/IMAGES/electronic.jpg";
-import food from "./assets/IMAGES/food.jpg";
-import Environmental from "./assets/IMAGES/Environmental.jpg";
-import automotive from "./assets/IMAGES/automotive.jpg";
+import Chemical from "./assets/IMAGES/ChemicalAnalysis.jpg";
+import Mechanical from "./assets/IMAGES/MechanicalTesting.jpg";
+import Corrosion from "./assets/IMAGES/CorrosionTesting.png";
+import NDT from "./assets/IMAGES/non-destructive_testing.webp";
+import Metallurgical_Analysis from "./assets/IMAGES/MetallurgicalAnalysis.jpg";
+import HardnessTester from "./assets/IMAGES/HardnessTester.jpg";
 
 const Services = () => {
   // const { services } = useGlobalContext();
   const services = [
     {
       id: "1",
-      name: "DSC Testing Of Polymer",
-      image: dhc,
+      name: "Chemical Composition Analysis",
+      image: Chemical,
       description:
-        "Differential scanning calorimetry (DSC) is a technique used to investigate the response of polymers to heating. DSC can be used to study the melting of a crystalline polymer or the glass transition.",
+        "Using advanced spectrometry and chemical analysis, we determine the exact elemental makeup of metals and alloys, ensuring they meet industry standards.",
     },
     {
       id: "2",
-      name: "Quv Weatherometer Testing Of Plastic",
-      image: quv,
+      name: "Mechanical Testing",
+      image: Mechanical,
       description:
-        "The test simulates the degradation caused by the exposure to sunlight and weather conditions. The sample is exposed to UVA-light during several hours, in dry and humid conditions. ",
+        "We evaluate the strength, hardness, and durability of metals through tensile, impact, and fatigue testing to ensure structural integrity.",
     },
     {
       id: "3",
-      name: "ION Chromatography of water by gcms",
-      image: gcms,
+      name: "Corrosion Testing",
+      image: Corrosion,
       description:
-        "Ion chromatography can be used to identify and quantify ionic contaminants such as chlorides, sulfates, phosphates and ammonia.",
+        "Our corrosion resistance tests simulate real-world conditions to assess how metals withstand environmental factors like moisture, chemicals, and temperature changes.",
     },
     {
       id: "4",
-      name: "Rubber part testing",
-      image: rubber,
+      name: "Non-Destructive Testing (NDT)",
+      image: NDT,
       description:
-        "Rubber testing evaluates the processing and final properties of rubber, polymer, and elastomer materials.",
+        "We use ultrasonic, radiographic (X-ray), magnetic particle, and dye penetrant testing to detect hidden flaws without damaging the material.",
     },
     {
       id: "5",
-      name: "Electrical component testing",
-      image: electronic,
+      name: "Metallurgical Analysis",
+      image: Metallurgical_Analysis,
       description:
-        "Electronic components testing is a process to know if the components are working fine or not in the circuit or off the circuit.",
+        "Our microscopic examination of metal structures helps identify defects, grain size, and heat treatment effectiveness.",
     },
     {
       id: "6",
-      name: "NABL accredited food testing",
-      image: food,
+      name: "Hardness Testing",
+      image: HardnessTester,
       description:
-        "Food Testing and analysis is an essential part of the food safety ecosystem to assure that the food is safe to consume.",
-    },
-    {
-      id: "7",
-      name: "Environmental Testing Service",
-      image: Environmental,
-      description:
-        "Environmental testing simulates the different climatic conditions and mechanical stress that products are exposed to during their lifetime.",
-    },
-    {
-      id: "8",
-      name: "Automotive Component Testing",
-      image: automotive,
-      description:
-        "Prototype and production test and development services for automotive components, either single component or system testing for product development, product validation and type approval testing.",
+        "We measure the hardness of metals using Brinell, Rockwell, and Vickers methods to determine wear resistance and material strength.",
     },
   ];
-  console.log(services);
 
   return (
     <Wrapper className="section">
@@ -82,8 +65,8 @@ const Services = () => {
                 <img src={image} alt={name} />
               </figure>
               <div className="card-data">
-                <h3>{name}</h3>
-                <p>{description}</p>
+                <h3 style={{ margin: "10px 0" }}>{name}</h3>
+                <p style={{ padding: 0 }}>{description}</p>
                 {/* <NavLink to="/service">
                   <Button className="btn">Read More</Button>
                 </NavLink> */}
