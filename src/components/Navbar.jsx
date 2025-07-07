@@ -10,6 +10,7 @@ const Navbar = () => {
     .navbar-list {
       display: flex;
       gap: 4.8rem;
+      font-size: 20px;
 
       li {
         list-style: none;
@@ -19,7 +20,9 @@ const Navbar = () => {
           &:visited {
             display: inline-block;
             text-decoration: none;
-            font-size: 1.8rem;
+            font-size: 15px;
+            font-family: "Kanit, sans-seri";
+            font-weight: 800;
             text-transform: uppercase;
             color: ${({ theme }) => theme.colors.black};
             transition: color 0.3s linear;

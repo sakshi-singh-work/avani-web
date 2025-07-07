@@ -55,9 +55,9 @@ const Mobile = styled.a`
 const MainHeader = styled.header`
   padding: 0 4.8rem;
   height: 80px;
-  background-color: ${({ theme }) => theme.colors.bg};
+  background-color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   .headertx {
     font-size: 2.5rem;

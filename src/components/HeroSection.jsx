@@ -52,12 +52,14 @@ const Section = styled.section`
     margin-bottom: 24px;
     text-align: left;
     font-weight: 500;
+    font-family: "Kanit, sans-seri";
   }
 
   p {
     font-size: 19px;
     line-height: 1.6;
     margin-bottom: 20px;
+    font-family: "Kanit, sans-seri";
   }
 
   .btn-wrapper {
@@ -76,11 +78,13 @@ const Section = styled.section`
       color: #3a5a40;
       margin-bottom: 24px;
       font-weight: 300;
+      font-family: "Kanit, sans-seri";
     }
     p {
       font-size: 15px;
       line-height: 1.6;
       margin-bottom: 20px;
+      font-family: "Kanit, sans-seri";
     }
   }
 `;
