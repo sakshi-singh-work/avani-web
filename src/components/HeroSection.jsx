@@ -57,7 +57,7 @@ const HeroSection = () => {
 const HeroWrapper = styled.section`
   width: 100%;
   height: 480px;
-  background-image: url("/src/assets/IMAGES/bg.jpg");
+  background-image: url("/public/bg.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
