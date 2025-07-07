@@ -5,6 +5,8 @@ import Corrosion from "./assets/IMAGES/CorrosionTesting.png";
 import NDT from "./assets/IMAGES/non-destructive_testing.webp";
 import Metallurgical_Analysis from "./assets/IMAGES/MetallurgicalAnalysis.jpg";
 import HardnessTester from "./assets/IMAGES/HardnessTester.jpg";
+import PolymerTesting from "./assets/IMAGES/polymerTesting.jpg";
+import Rohs from "./assets/IMAGES/rohs.jpg";
 
 const Services = () => {
   // const { services } = useGlobalContext();
@@ -50,6 +52,20 @@ const Services = () => {
       image: HardnessTester,
       description:
         "We measure the hardness of metals using Brinell, Rockwell, and Vickers methods to determine wear resistance and material strength.",
+    },
+    {
+      id: "7",
+      name: "Polymer Testing",
+      image: PolymerTesting,
+      description:
+        "Comprehensive analytical and mechanical testing for product development, including tensile strength, elongation, impact resistance, thermal analysis (TGA, DSC), melt flow index, FTIR, and chemical resistance.",
+    },
+    {
+      id: "8",
+      name: "RoHS, REACH, and PFAS Testing Services",
+      image: Rohs,
+      description:
+        "Ensure compliance, build trust, and access global markets with our comprehensive testing services for RoHS, REACH, and PFAS regulations.",
     },
   ];
 

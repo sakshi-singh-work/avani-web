@@ -20,17 +20,17 @@ const Navbar = () => {
           &:visited {
             display: inline-block;
             text-decoration: none;
-            font-size: 15px;
+            font-size: 18px;
             font-family: "Kanit, sans-seri";
             font-weight: 800;
             text-transform: uppercase;
-            color: ${({ theme }) => theme.colors.black};
+            color: #1e375a;
             transition: color 0.3s linear;
           }
 
           &:hover,
           &:active {
-            color: ${({ theme }) => theme.colors.helper};
+            color: #6a994e;
           }
         }
       }
@@ -67,8 +67,7 @@ const Navbar = () => {
         position: absolute;
         top: 0;
         left: 0;
-        background-color: #fff;
-
+        background-color: #dee2e6;
         display: flex;
         justify-content: center;
         align-content: center;

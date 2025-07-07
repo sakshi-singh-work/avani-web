@@ -58,6 +58,15 @@ const AboutHeroSection = () => {
               precise, reliable results.
             </p>
           </li>
+          <li>
+            <strong>Comprehensive NPD Testing Consultancy:</strong>
+            <p>
+              End-to-end testing support for new automotive products—from
+              concept to launch. We ensure performance, compliance, and quality
+              through expert labs across mechanical, electrical, environmental,
+              and regulatory domains.
+            </p>
+          </li>
         </ul>
       </WhyChooseUsSection>
     </>
@@ -85,6 +94,7 @@ const Section = styled.section`
     line-height: 1.6;
     margin-bottom: 20px;
     font-family: "Kanit, sans-seri";
+    padding: 0;
   }
 
   .btn-wrapper {
@@ -108,6 +118,7 @@ const Section = styled.section`
       line-height: 1.6;
       margin-bottom: 20px;
       font-family: "Kanit, sans-seri";
+      padding: 0;
     }
   }
 `;

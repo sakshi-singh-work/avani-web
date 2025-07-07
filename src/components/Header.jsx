@@ -55,17 +55,17 @@ const Mobile = styled.a`
 const MainHeader = styled.header`
   padding: 0 4.8rem;
   height: 80px;
-  background-color: white;
+  background-color: #dee2e6;
   display: flex;
   justify-content: space-around;
   align-items: center;
   .headertx {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: #3a5a40;
     font-weight: bold;
   }
   .headertx-2 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: grey;
     font-weight: bold;
   }
