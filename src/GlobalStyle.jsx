@@ -96,10 +96,11 @@ li {
 }
 
   .common-heading {
-      font-size: 3.8rem;
-      font-weight: 600;
+      font-size:44px;
+      font-weight: 500;
       margin-bottom: 6rem;
       text-transform: capitalize;
+      color: #3a5a40;
     }
 
     input, textarea{

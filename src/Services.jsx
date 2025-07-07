@@ -55,7 +55,7 @@ const Services = () => {
 
   return (
     <Wrapper className="section">
-      <h2 className="common-heading">Services Our Labs Provide</h2>
+      <h2 className="heading">Services Our Labs Provide</h2>
       <div className="container grid grid-three-column">
         {services.map((curElem) => {
           const { id, name, image, description } = curElem;
@@ -86,7 +86,12 @@ const Wrapper = styled.section`
   .container {
     max-width: 120rem;
   }
-
+  .heading {
+    font-size: 44px;
+    color: #3a5a40;
+    margin-bottom: 24px;
+    font-weight: 500;
+  }
   .card {
     border: 0.1rem solid rgb(170 170 170 / 40%);
     .card-data {
@@ -151,6 +156,14 @@ const Wrapper = styled.section`
   @media (max-width: ${({ theme }) => theme.media.tab}) {
     .grid-three-column {
       grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: ${({ theme }) => theme.media.tab}) {
+    .heading {
+      font-size: 36px;
+      color: #3a5a40;
+      margin-bottom: 24px;
+      font-weight: 300;
     }
   }
 

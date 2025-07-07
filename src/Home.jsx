@@ -4,6 +4,7 @@ import { useGlobalContext } from "./context";
 import Services from "./Services";
 import Contact from "./Contact";
 import TeamCertification from "./components/TeamCertification";
+import About from "./About";
 
 const Home = () => {
   const { updateHomePage } = useGlobalContext();
@@ -13,6 +14,7 @@ const Home = () => {
   return (
     <>
       <HeroSection />
+      <About />
       <Services />
       <TeamCertification />
       <Contact />

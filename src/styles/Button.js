@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const Button = styled.button`
   text-decoration: none;
   max-width: auto;
-  background-color: #87a96b;
+  background-color: darkolivegreen;
   color: rgb(255 255 255);
   padding: 1rem 2.4rem;
   border: none;
-  border-radius: 20px;
+  border-radius: 8px;
   text-align: center;
   cursor: pointer;
   font-size: 18px;

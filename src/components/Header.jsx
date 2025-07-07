@@ -61,7 +61,7 @@ const MainHeader = styled.header`
   align-items: center;
   .headertx {
     font-size: 2.5rem;
-    color: #87a96b;
+    color: #3a5a40;
     font-weight: bold;
   }
   .headertx-2 {
